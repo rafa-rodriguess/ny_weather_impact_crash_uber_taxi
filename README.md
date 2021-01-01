@@ -149,7 +149,7 @@ I couldn’t ignore that, since my relational key is Date and hour.
 ### Data Quality and Data Cleansing
 Executes data quality on the datasets
 
-**1** - EEvery illegal character is strip off from the field name preventing error saving the file. (function dataQuality)
+**1** - Every illegal character is strip off from the field name preventing error saving the file. (function dataQuality)
 
 **2** - Assures that there are no duplicated rows by comparing numbers of rows before and after join operation. (function dataTransformation)
 
