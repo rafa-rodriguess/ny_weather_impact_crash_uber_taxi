@@ -1,4 +1,4 @@
-# NY Yellow and Green Cabs, Uber, And Crash data by Weather Condition - an Udacity's Capstone Project
+# NY Yellow and Green Cabs, Uber, and Car Crash data by Weather Condition - an Udacity's Capstone Project
 #### - [Scope](#scope)
 #### - [Data Sources](#data-sources)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber](#uber)
@@ -6,7 +6,7 @@
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Crash Data](#crash-data)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Weather Data](#weather-data)
 #### - [Data Sources Repositories](#data-sources-repositories)
-#### - [Tools, Technologies, and Data Model](#tools,-technologies,-and-data-model)
+#### - [Tools, Technologies, and Data Model](#tools\,-technologies\,-and-data-model)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Model](#data-model)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Tools Technologies used:](#tools-technologies-used:)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Hardware](#hardware)
