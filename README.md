@@ -172,7 +172,7 @@ The "config.cfg" algo includes all the data source address.
 ### 02 - Set AWS keys:
 	os.environ['AWS_ACCESS_KEY_ID']=""
 	os.environ['AWS_SECRET_ACCESS_KEY']=""
-(cant help you on that)
+(cant help you with that)
 	
 ### 03 - Run Main
 
