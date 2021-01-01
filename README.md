@@ -29,7 +29,7 @@
 
 ## Scope
 
-This project aims to create (some sort of) a "mini" Data Lake  to provide all the necessary data to analyse the weather impact on:
+This project aims to create (some sort of) a "mini" Data Lake  to provide all the necessary data to analyze the weather impact on:
 - Uber, Yellow and Green Taxis pickups from **March 2014 to Sep 2014 and Jan 2015 to Jun 2015** (more on why those dates below on "data sources")  on New York city.
 - Car crashes from **2013 to 2019** on New York City,
 
@@ -78,7 +78,7 @@ This project comprehends the "Orchestration" frame (Ingestion+Data Storage), usi
 
 ### Tools Technologies used:
 
-As storage (both "Storage Blob" and "Data Storage") **S3** was the chosen technologie. For the ecosystem, was used **Hadoop with Spark/PySpark pair.**
+As storage (both "Storage Blob" and "Data Storage") **S3** was the chosen technology. For the ecosystem, was used **Hadoop with Spark/PySpark pair.**
 
 **S3**  is cheap, reliable, and easy to configure and use.
 
@@ -95,7 +95,7 @@ The final dataframework was stored as **parquet** file format, *partitioned by Y
 
 
 ### Hardware
-It was used [AWS EMR](https://aws.amazon.com/pt/emr/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc) (Elastic MapReduce). EMR was choosen for its scalability and flexibility. Amazon EMR is a big data cloud solution that provides flexibility to scale the cluster up or down as your computing needs change. We can resize out cluster to add instances for peak workloads and remove instances to control costs when peak workloads subside.
+It was used [AWS EMR](https://aws.amazon.com/pt/emr/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc) (Elastic MapReduce). EMR was chosen for its scalability and flexibility. Amazon EMR is a big data cloud solution that provides flexibility to scale the cluster up or down as your computing needs change. We can resize out cluster to add instances for peak workloads and remove instances to control costs when peak workloads subside.
 
 To reduce cost, the project used **EC2 spot instances**. You can get more details [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html).
 
@@ -106,7 +106,7 @@ Below a time-taking with different hardware configurations by each step of the p
 ### The data was increased by 100x.
 In this hypothetical scenario, the main concern would be processing capability since S3 storage is virtually unlimited.
 
-To solve this, we could scale up the hardware using EMR manually or just set it to auto-scalling option (**"Tools, Technologies, and Data Model" --> "Hardware"** for more)
+To solve this, we could scale up the hardware using EMR manually or just set it to auto-scaling option (**"Tools, Technologies, and Data Model" --> "Hardware"** for more)
 
 ### The pipelines would be run on a daily basis by 7 am every day.
 
@@ -140,14 +140,14 @@ Once files are loaded into memory, transforms the data changing the structure of
 
 Saves the file to "Data Storage" in parquet format.      
 The biggest challenge here (besides getting all the AWS environment running) was to deal with the different Date/Time types. In fact, every data source had one different date/time format.. some even 2! Therefore, every transformation was tailor made for the specific data source.
-I couldnt ignore that, since my relational key is Date and hour. 
+I couldn’t ignore that, since my relational key is Date and hour. 
 
 **Related functions:** *dataTransformation; dataPrepYellowCabDF; dataPrepGreenCabDF; dataPrepUber; dataPrepWeather; dataPrepCrash; saveDFtoParquetS3; mergeDataFrames*
 
 ### Data Quality and Data Cleansing
-Executes dataquality on the datasets
+Executes data quality on the datasets
 
-**1** - Every ilegal caracter is stript off from the field name preventing error saving the file. (function dataQuality)
+**1** - EEvery illegal character is strip off from the field name preventing error saving the file. (function dataQuality)
 
 **2** - Assures that there are no duplicated rows by comparing numbers of rows before and after join operation. (function dataTransformation)
 
@@ -165,7 +165,7 @@ Every major step is controlled by a flag in "config.cfg" file. The flags are:
 	RUN_LOAD=True
 	RUM_TRANSFORMATION=True
 
-Is you want to run the complete ELT, just set it all to True. If you want to skip one step, set it to False. Exemple: All of the data is already ingested in "Storage Blob". So you dont have to necessarily run the Extraction step again.
+Is you want to run the complete ELT, just set it all to True. If you want to skip one step, set it to False. Example: All of the data is already ingested in "Storage Blob". So you dont have to necessarily run the Extraction step again.
 
 The "config.cfg" algo includes all the data source address.
 
@@ -181,11 +181,11 @@ The "config.cfg" algo includes all the data source address.
 
 The process output consists of two Tables - analysisPickupsDf and analysisCrashsDf.
 
-As the names suggest, these two tables are suppose to help quantitative analysis of weather impact on Yellow, Green and Uber pickups and Car Crashs in New York city.
+As the names suggest, these two tables are supposed to help quantitative analysis of weather impact on Yellow, Green and Uber pickups and Car Crashs in New York city.
 
 Each row is a event (pickup ou crash) on a certain Date and Time. The tables are almost the same, except that analysisPickupsDf has the Pickup company to distingue between services.
 
-Again.. many more can be done with the information ingested in the "Storage Blob". Thos whole thing is a proof of concept of a "mini" data lake using Hadoop, Spark and AWS services.
+Again.. many more can be done with the information ingested in the "Storage Blob". This whole thing is a proof of concept of a "mini" data lake using Hadoop, Spark and AWS services.
 
 ##### analysisPickupsDf:
 ![](analysisPickupsDf.GIF)
