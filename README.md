@@ -2,7 +2,7 @@
 
 #### - Scope
 #### - Data Sources
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber]Uber
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber]
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Yellow and Green NY Cabs
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Crash Data
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Weather Data
@@ -35,7 +35,7 @@ This project aims to create (some sort of) a "mini" Data Lake  to provide all th
 
 
 ## Data Sources
-### Uber
+### Uber ###
 Uber Pickups data from [data.world](https://data.world/data-society/uber-pickups-in-nyc). Quoting them: 
 "This data contains on over 4.5 million Uber pickups in New York City **from April to September 2014**, and 14.3 million more Uber pickups from January to June 2015. Trip-level data on 10 other for-hire vehicle (FHV) companies, as well as aggregated data for 329 FHV companies, is also included. All the files are as they were received on August 3, Sept. 15 and Sept. 22, 2015."
 
