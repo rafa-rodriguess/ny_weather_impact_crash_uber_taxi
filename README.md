@@ -18,7 +18,7 @@
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Extraction](#data-extraction)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Load](#data-load)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Transformation](#data-transformation)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Quality](#data-quality)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Quality and Data Cleansing](#data-quality-and-data-cleansing)
 #### - [How to run](#how-to-run)
 #### - [Data Dictionary](#data-dictionary)
 #### - [Recommendations for how to use the data to come up with insights](#recommendations-for-how-to-use-the-data-to-come-up-with-insights)
@@ -144,11 +144,15 @@ I couldnt ignore that, since my relational key is Date and hour.
 
 **Related functions:** *dataTransformation; dataPrepYellowCabDF; dataPrepGreenCabDF; dataPrepUber; dataPrepWeather; dataPrepCrash; saveDFtoParquetS3; mergeDataFrames*
 
-### Data Quality
+### Data Quality and Data Cleansing
 Executes dataquality on the datasets
-**1** - Every ilegal caracter is stript off from 	the field name preventing error saving the file.
-**3** - Assures that there are no duplicated rows by comparing numbers of rows before and after join operation.
-**2** - Every blank row is deleted from CSV files
+**1** - Every ilegal caracter is stript off from the field name preventing error saving the file. (function dataQuality)
+
+**2** - Assures that there are no duplicated rows by comparing numbers of rows before and after join operation. (function dataTransformation)
+
+**3** - Every blank row is deleted from CSV files (function dataQuality)
+
+**4** - Duplicated key (date/time) removed from weather database (function dataPrepWeather)
 
 **Related functions:** *dataQuality*, 
 
