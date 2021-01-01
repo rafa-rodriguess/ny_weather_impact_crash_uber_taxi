@@ -1,27 +1,28 @@
 # NY Yellow and Green Cabs, Uber, And Crash data by Weather Condition - an Udacity's Capstone Project
-#### - Scope
-#### - Data Sources
+#### - [Scope](#scope)
+#### - [Data Sources](#data-sources)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber](#uber)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Yellow and Green NY Cabs](#yellow-and-green-ny-cabs)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Crash Data
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Weather Data
-#### - Data Sources Repositories
-#### - Tools, Technologies, and Data Model
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data Model
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Tools Technologies used:
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Hardware
-#### - Alternative Scenarios
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The data was increased by 100x.
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The pipelines would be run on a daily basis by 7 am every day.
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The database needed to be accessed by 100+ people.
-#### - Project Running Steps
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data Extraction
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data Load
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data Transformation
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Data Quality
-#### - How to run
-#### - Data Dictionary
-#### - Recommendations for how to use the data to come up with insights
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Crash Data](#crash-data)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Weather Data](#weather-data)
+#### - [Data Sources Repositories](#data-sources-repositories)
+#### - [Tools, Technologies, and Data Model](#tools,-technologies,-and-data-model)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Model](#data-model)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Tools Technologies used:](#tools-technologies-used:)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Hardware](#hardware)
+#### - [Alternative Scenarios](#alternative-scenarios)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [The data was increased by 100x.](#the-data-was-increased-by-100x.)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [The pipelines would be run on a daily basis by 7 am every day.](#the-pipelines-would-be-run-on-a-daily-basis-by-7-am-every-day.)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [The database needed to be accessed by 100+ people.](#the-database-needed-to-be-accessed-by-100+-people.)
+#### - [Project Running Steps](#project-running-steps)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Extraction](#data-extraction)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Load](#data-load)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Transformation](#data-transformation)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Quality](#data-quality)
+#### - [How to run](#how-to-run)
+#### - [Data Dictionary](#data-dictionary)
+#### - [Recommendations for how to use the data to come up with insights](#recommendations-for-how-to-use-the-data-to-come-up-with-insights)
+
 
 
 
