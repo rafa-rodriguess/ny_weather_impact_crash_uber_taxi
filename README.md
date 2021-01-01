@@ -190,9 +190,12 @@ Again.. many more can be done with the information ingested in the "Storage Blob
 ##### analysisPickupsDf:
 ![](analysisPickupsDf.GIF)
 
+![](analysisPickupsDf_struct.GIF)
 
 ##### analysisCrashsDf:
 ![](analysisCrashsDf.GIF)
+
+![](analysisPickupsDf_struct.GIF)
 
 ## -   Recommendations for how to use the data to come up with insights.
 The range of analysis of this data is virtually endless. Here are some (obvious and some not some obvious) use examples.
