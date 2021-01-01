@@ -70,7 +70,7 @@ For the NY City they have several weather stations collecting data all over town
 ### Data Model
 The chosen data mode is the one below, borrowed from Microsoft: 
 
-[IMAGEM]
+![](enterprise-bi-adf.png)
 
 This project comprehends the "Orchestration" frame (Ingestion+Data Storage), using External Data as data sources (listed on the **"Data Sources Repositories"** section).
 
