@@ -88,6 +88,12 @@ As storage (both "Storage Blob" and "Data Storage") **S3** was the chosen techno
 
 The final dataframework was stored as **parquet** file format, *partitioned by Year and Month*.
 
+	ERM - 5.30.0
+	Hadoop - Amazon 2.8.5
+	Spark - 2.4.5
+	Python - 3.7	
+
+
 ### Hardware
 It was used [AWS EMR](https://aws.amazon.com/pt/emr/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc) (Elastic MapReduce). EMR was choosen for its scalability and flexibility. Amazon EMR is a big data cloud solution that provides flexibility to scale the cluster up or down as your computing needs change. We can resize out cluster to add instances for peak workloads and remove instances to control costs when peak workloads subside.
 
