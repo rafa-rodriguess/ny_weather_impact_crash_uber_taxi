@@ -101,6 +101,8 @@ To reduce cost, the project used **EC2 spot instances**. You can get more detail
 
 Below a time-taking with different hardware configurations by each step of the process:
 
+![](runnin_teste.GIF)
+
 ## Alternative Scenarios
 
 ### The data was increased by 100x.
