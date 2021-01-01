@@ -2,7 +2,7 @@
 
 #### - Scope
 #### - Data Sources
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Uber
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber][] Uber
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Yellow and Green NY Cabs
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Crash Data
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Weather Data
