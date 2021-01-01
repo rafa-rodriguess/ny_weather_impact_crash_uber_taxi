@@ -8,7 +8,7 @@
 #### - [Data Sources Repositories](#data-sources-repositories)
 #### - [Tools, Technologies, and Data Model](#tools\,-technologies\,-and-data-model)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Data Model](#data-model)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Tools Technologies used:](#tools-technologies-used:)
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Tools Technologies used:](#tools-technologies-used)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Hardware](#hardware)
 #### - [Alternative Scenarios](#alternative-scenarios)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [The data was increased by 100x.](#the-data-was-increased-by-100x.)
