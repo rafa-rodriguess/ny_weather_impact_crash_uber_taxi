@@ -2,7 +2,7 @@
 #### - Scope
 #### - Data Sources
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber](#uber)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Yellow and Green NY Cabs](#yellow-and-green-ny-cabs-(yes,-there-are-Green...))
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Yellow and Green NY Cabs](#yellow-and-green-ny-cabs)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Crash Data
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Weather Data
 #### - Data Sources Repositories
@@ -38,7 +38,8 @@ This project aims to create (some sort of) a "mini" Data Lake  to provide all th
 Uber Pickups data from [data.world](https://data.world/data-society/uber-pickups-in-nyc). Quoting them: 
 "This data contains on over 4.5 million Uber pickups in New York City **from April to September 2014**, and 14.3 million more Uber pickups from January to June 2015. Trip-level data on 10 other for-hire vehicle (FHV) companies, as well as aggregated data for 329 FHV companies, is also included. All the files are as they were received on August 3, Sept. 15 and Sept. 22, 2015."
 
-### Yellow and Green NY Cabs (Yes, there are Green...)
+### Yellow and Green NY Cabs 
+(Yes, there are Green...)
 Data hosted by the AWS  ["Open Data"](https://aws.amazon.com/pt/opendata/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) initiative [here](https://registry.opendata.aws/nyc-tlc-trip-records-pds/),
 Data of trips taken by taxis in New York City, supplied by The Official Website of the City of New York. Use Data License [here](https://www1.nyc.gov/home/terms-of-use.page).
 *Since the date range of uber is limited from April to September 2014 and from January to June 2015, data from Yellow and Green cab was limited to this same period as well.*
