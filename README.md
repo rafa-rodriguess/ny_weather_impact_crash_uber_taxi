@@ -177,11 +177,11 @@ Each row is a event (pickup ou crash) on a certain Date and Time. The tables are
 Again.. many more can be done with the information ingested in the "Storage Blob". Thos whole thing is a proof of concept of a "mini" data lake using Hadoop, Spark and AWS services.
 
 ##### analysisPickupsDf:
-![](analysisPickupsDf.gif)
+![](analysisPickupsDf.GIF)
 
 
 ##### analysisCrashsDf:
-![](analysisCrashsDf.gif)
+![](analysisCrashsDf.GIF)
 
 ## -   Recommendations for how to use the data to come up with insights.
 The range of analysis of this data is virtually endless. Here are some (obvious and some not some obvious) use examples.
