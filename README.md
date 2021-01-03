@@ -1,4 +1,5 @@
-# NY Yellow and Green Cabs, Uber, and Car Crash data by Weather Condition - an Udacity's Capstone Project
+# Weather impact on NY Yellow and Green Cabs, Uber, and Car Crashs - an Udacity Capstone Project
+# "Mini" Data Lake with AWS EMR Hadoop, Spark/PySpark and S3
 #### - [Scope](#scope)
 #### - [Data Sources](#data-sources)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber](#uber)
