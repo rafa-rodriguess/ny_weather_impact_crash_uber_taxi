@@ -185,9 +185,9 @@ The process output consists of two Tables - analysisPickupsDf and analysisCrashs
 
 As the names suggest, these two tables are supposed to help quantitative analysis of weather impact on Yellow, Green and Uber pickups and Car Crashs in New York city.
 
-Each row is a event (pickup ou crash) on a certain Date and Time. The tables are almost the same, except that analysisPickupsDf has the Pickup company to distingue between services.
+Each row is an event (pickup ou crash) on a certain Date and Time. The tables are almost the same, except that analysisPickupsDf has the Pickup company to distingue between services.
 
-Again.. many more can be done with the information ingested in the "Storage Blob". This whole thing is a proof of concept of a "mini" data lake using Hadoop, Spark and AWS services.
+Again.. many more can be done with the information ingested in the "Storage Blob" (see **"Recommendations for how to use the data to come up with insights"**). This whole thing is a proof of concept of a "mini" data lake using Hadoop, Spark and AWS services.
 
 ##### analysisPickupsDf:
 ![](analysisPickupsDf.GIF)
