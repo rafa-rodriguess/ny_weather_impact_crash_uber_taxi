@@ -1,4 +1,4 @@
-# "Mini" Data Lake with AWS EMR Hadoop, Spark/PySpark and S3. Weather impact on NY Yellow and Green Cabs, Uber, and Car Crashs - an udacity Capstone Project 
+# "Mini" Data Lake with AWS EMR Hadoop, Spark/PySpark and S3. Weather impact on NY Yellow and Green Cabs, Uber, and Car Crashs - an Udacity Capstone Project 
 #### - [Scope](#scope)
 #### - [Data Sources](#data-sources)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Uber](#uber)
